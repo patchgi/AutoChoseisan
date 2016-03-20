@@ -36,6 +36,5 @@ if __name__=="__main__":
 
 	driver.find_element_by_id("createBtn").submit()
 	time.sleep(1)
-	driver.save_screenshot("ss.png")
 	URL=driver.find_element_by_id("listUrl").get_attribute("value")
 	print (URL)
